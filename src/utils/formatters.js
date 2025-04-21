@@ -100,4 +100,17 @@ function getRegistrationStageName(stageKey) {
    }
  }
 
+// --- Дополнительные утилиты форматирования ---
+
+// Форматирует массив строк в нумерованный список (из 2/Общая.js)
+function formatArrayAsNumberedList(stringArray) {
+  let text = "";
+  if (stringArray && Array.isArray(stringArray)) {
+    for (let i = 0; i < stringArray.length; i++) {
+      text += (i + 1) + ". " + stringArray[i] + "\n";
+    }
+  }
+  return text;
+}
+
 // TODO: Добавить другие форматтеры, если нужны (например, для дат из MainLibrary) 
