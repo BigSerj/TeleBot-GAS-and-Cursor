@@ -1,0 +1,18 @@
+{
+  "timeZone": "Europe/Minsk",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Drive",
+      "serviceId": "drive",
+      "version": "v3"
+    }],
+    "libraries": [{
+      "userSymbol": "MainLibrary",
+      "libraryId": "1uezPqrX3syTrcH75xHc_jdnnCn0bDekcXbj_fIlMlbLmmtnSaNW7b82u",
+      "version": "0",
+      "developmentMode": true
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
